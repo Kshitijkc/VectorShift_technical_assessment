@@ -4,6 +4,7 @@ import {
     Autocomplete,
     TextField,
 } from '@mui/material';
+import { HubSpotIntegration } from './integrations/hubspot';
 import { AirtableIntegration } from './integrations/airtable';
 import { NotionIntegration } from './integrations/notion';
 import { DataForm } from './data-form';
@@ -11,6 +12,7 @@ import { DataForm } from './data-form';
 const integrationMapping = {
     'Notion': NotionIntegration,
     'Airtable': AirtableIntegration,
+    'HubSpot': HubSpotIntegration
 };
 
 export const IntegrationForm = () => {
