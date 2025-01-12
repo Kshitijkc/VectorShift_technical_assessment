@@ -1,4 +1,4 @@
-# slack.py
+# hubspot.py
 
 import json
 import secrets
